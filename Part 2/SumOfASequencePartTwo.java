@@ -18,7 +18,7 @@ public class SumOfASequencePartTwo {
     }
 }
 
-// Solution with a while loop:
+// Model answer - Solution with a while loop:
 // public static void main(String[] args) {
 //         Scanner scanner = new Scanner(System.in);
  
