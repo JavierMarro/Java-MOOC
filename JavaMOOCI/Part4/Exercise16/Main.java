@@ -1,4 +1,4 @@
-public class MainProgram {
+public class Main {
 
     public static void main(String[] args) {
         // Scanner scanner = new Scanner(System.in);
@@ -29,4 +29,5 @@ public class MainProgram {
         System.out.println("Matt: " + mattsCard);
     }
 }
+
 
