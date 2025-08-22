@@ -1,4 +1,4 @@
-package JavaMOOC2.Part8;
+package JavaMOOC2.Part8.Exercise1;
 
 import java.util.HashMap;
 // Simple example and intro to HashMaps
