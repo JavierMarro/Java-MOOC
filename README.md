@@ -13,9 +13,18 @@ The basic ideas of object-oriented programming, i.e., the representation of info
 One of the major benefits of object-oriented programming is how problem-domain concepts are modeled through classes and objects, which makes programs easier to understand. In addition, structuring the problem domain into classes facilitates the construction and maintenance of programs."
 
 After doing my own research I came across the concept of the four pillars of OOP:
-
 https://www.geeksforgeeks.org/java/four-main-object-oriented-programming-concepts-of-java/
 
 and the concept of SOLID:
-
 https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/
+
+Also the main OOP concepts in Java:
+https://www.geeksforgeeks.org/java/object-oriented-programming-oops-concept-in-java/
+
+Other websites I have found to deepen my understanding of Java & Design Patterns:
+https://java-design-patterns.com/
+https://refactoring.guru/
+
+Also came across the site baeldung as I have looked into Java for backend - Spring Boot
+https://www.baeldung.com/java-tutorial
+https://www.baeldung.com/courses/rest-with-spring-boot-course
