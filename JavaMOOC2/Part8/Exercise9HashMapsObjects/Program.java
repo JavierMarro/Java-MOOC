@@ -1,4 +1,4 @@
-package JavaMOOC2.Part8.Exercise9;
+package JavaMOOC2.Part8.Exercise9HashMapsObjects;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package JavaMOOC2.Part8.Exercise13;
+package JavaMOOC2.Part8.Exercise13MethodsEqualsHashcode;
 
 
 import java.util.ArrayList;

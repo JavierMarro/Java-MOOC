@@ -1,4 +1,4 @@
-package JavaMOOC2.Part8.Exercise14;
+package JavaMOOC2.Part8.Exercise14HashMapArrLists;
 
 import java.util.ArrayList;
 import java.util.HashMap;

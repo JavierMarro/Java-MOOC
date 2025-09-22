@@ -1,4 +1,4 @@
-package JavaMOOC2.Part8.Exercise10;
+package JavaMOOC2.Part8.Exercise10HashMapsPrimitiveVar;
 
 import java.util.HashMap;
 
