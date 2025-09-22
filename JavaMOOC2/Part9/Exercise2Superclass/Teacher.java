@@ -1,4 +1,4 @@
-package JavaMOOC2.Part9.Exercise2;
+package JavaMOOC2.Part9.Exercise2Superclass;
 
 public class Teacher extends Person{
 

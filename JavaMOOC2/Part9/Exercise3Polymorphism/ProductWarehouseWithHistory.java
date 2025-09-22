@@ -1,4 +1,4 @@
-package JavaMOOC2.Part9.Exercise3;
+package JavaMOOC2.Part9.Exercise3Polymorphism;
 
 
 public class ProductWarehouseWithHistory extends ProductWarehouse{

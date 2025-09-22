@@ -1,4 +1,4 @@
-package JavaMOOC2.Part9.Exercise3;
+package JavaMOOC2.Part9.Exercise3Polymorphism;
 
 
 public class Main {
@@ -15,7 +15,6 @@ public class Main {
         juice.addToWarehouse(1.0);
         System.out.println(juice);           // Juice: balance = 989.7, space left 10.299999999999955
         // Part 3, 4, 5 & 6
-        // however, history() still doesn't work properly:
         System.out.println(juice.history()); // [1000.0, 988.7, 989.7]
 
         //Part 7
