@@ -1,6 +1,6 @@
 package JavaMOOC2.Part9.Exercise12ObjectPolymorphism;
 
-public class Cat extends Animal {
+public class Cat extends Animal implements NoiseCapable{
 
     public Cat(){
         this("Cat");
@@ -10,8 +10,13 @@ public class Cat extends Animal {
     }
 
     public void purr() {
-    System.out.println(super.getName() + " purrs");
-  }
+        System.out.println(super.getName() + " purrs");
+    }
+
+    public void makeNoise(){
+        this.purr();
+    }
     
 }
+
 
