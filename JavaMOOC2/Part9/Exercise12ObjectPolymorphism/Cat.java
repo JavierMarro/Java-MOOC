@@ -1,0 +1,5 @@
+package JavaMOOC2.Part9.Exercise12ObjectPolymorphism;
+
+public class Cat implements Animal{
+    
+}

@@ -1,7 +1,5 @@
 package JavaMOOC2.Part9.Exercise4Abstract;
 
-import java.util.Objects;
-
 public class Item {
 
     private String name;
