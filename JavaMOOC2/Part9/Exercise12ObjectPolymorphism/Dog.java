@@ -1,5 +1,17 @@
 package JavaMOOC2.Part9.Exercise12ObjectPolymorphism;
 
-public class Dog implements Animal{
+public class Dog extends Animal{
+
+    public Dog(){
+        this("Dog");
+    }
+    public Dog(String name){
+        super(name);
+    }
+
+    public void bark() {
+    System.out.println(super.getName() + " barks");
+  }
     
 }
+
