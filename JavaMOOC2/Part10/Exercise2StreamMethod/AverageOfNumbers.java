@@ -4,6 +4,7 @@ package JavaMOOC2.Part10.Exercise2StreamMethod;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.function.Predicate;
 
 public class AverageOfNumbers {
 
@@ -88,6 +89,19 @@ public class AverageOfNumbers {
                 .getAsDouble();
 
         System.out.println("average of the numbers: " + chosenAvg);
+
+        // Upon reading on streams, found the interface Predicate which would help refactor even further
+        Predicate<Integer> filterCondition = userRequest.equals("n")
+            ? number -> number < 0
+            : number -> number > 0;
+
+        double finalAvg = allNums.stream()
+            .mapToInt(Integer::valueOf)
+            .filter(filterCondition::test)
+            .average()
+            .orElse(0.0); // safer than getAsDouble()
+
+        System.out.println("average of the numbers: " + finalAvg);
 
         // This is the Model answer
         // String choise = scanner.nextLine();
