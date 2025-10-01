@@ -74,6 +74,21 @@ public class AverageOfNumbers {
 
         System.out.println("average of the numbers: " + average);
 
+        // Further refactored the above to use lambda expressions
+        double chosenAvg = userRequest.equals("n")
+            ? allNums.stream()
+                .mapToInt(Integer::valueOf)
+                .filter(number -> number < 0)
+                .average()
+                .getAsDouble()
+            : allNums.stream()
+                .mapToInt(Integer::valueOf)
+                .filter(number -> number > 0)
+                .average()
+                .getAsDouble();
+
+        System.out.println("average of the numbers: " + chosenAvg);
+
         // This is the Model answer
         // String choise = scanner.nextLine();
         // if (choise.equals("n")) {
