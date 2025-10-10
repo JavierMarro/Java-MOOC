@@ -52,6 +52,15 @@ public class Card implements Comparable<Card>{
         //If the values are different, this comparison orders cards by value ascending.
         return this.value - mockCard.value;
     }
+    // In a more broken down way, the above could also be done as follows:
+    // if (this.value == mockCard.getValue()) {
+    // return this.suit.ordinal() - mockCard.getSuit().ordinal();
+    // } else if (this.value < mockCard.getValue()) {
+    //     return -1;
+    // } else {
+    //     return 1;
+    // }
+
     
 }
 
