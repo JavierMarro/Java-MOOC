@@ -74,7 +74,7 @@ public class Main {
         cards.add(new Card(12, Suit.HEART));
         cards.add(new Card(2, Suit.SPADE));
 
-        SortBySuit sortBySuitSorter = new SortBySuit();
+        BySuitInValueOrder sortBySuitSorter = new BySuitInValueOrder();
         Collections.sort(cards, sortBySuitSorter);
 
         cards.stream().forEach(c -> System.out.println(c));

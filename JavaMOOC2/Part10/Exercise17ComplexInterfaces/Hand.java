@@ -2,10 +2,11 @@ package JavaMOOC2.Part10.Exercise17ComplexInterfaces;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 // Part 2, solution to creating Hand class with first 2 methods
 public class Hand implements Comparable<Hand> {
 
-  private ArrayList<Card> cardsHand;
+  private List<Card> cardsHand;
 
   public Hand(){
     this.cardsHand = new ArrayList<>();
@@ -39,5 +40,10 @@ public class Hand implements Comparable<Hand> {
       handTotal+= card.getValue();
     }
     return handTotal;
+  }
+
+  // Part 6 Sorting the hand by suit
+  public void sortBySuit(){
+    Collections.sort(this.cardsHand, new BySuitInValueOrder());
   }
 }

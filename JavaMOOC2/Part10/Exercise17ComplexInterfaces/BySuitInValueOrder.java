@@ -5,14 +5,23 @@ import java.util.Comparator;
 public class BySuitInValueOrder implements Comparator<Card> {
     
     public int compare(Card c1, Card c2) {
-    int comparison = c1.getSuit().ordinal() - c2.getSuit().ordinal();
+    int sortingCompare = c1.getSuit().ordinal() - c2.getSuit().ordinal();
 
-    if (comparison == 0) {
+    if (sortingCompare == 0) {
       return c1.getValue() - c2.getValue();
     }
-    return comparison;
+    return sortingCompare;
 
   }
+    //Model answer:
+    //   @Override
+    //     public int compare(Card c1, Card c2) {
+    //         if (c1.getSuit() == c2.getSuit()) {
+    //             return c1.getValue() - c2.getValue();
+    //         }
+
+    //         return c1.getSuit().compareTo(c2.getSuit());
+    //     }
 
 }
 
