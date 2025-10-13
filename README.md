@@ -31,9 +31,11 @@ https://www.geeksforgeeks.org/java/object-oriented-programming-oops-concept-in-j
 ##### Other websites I have found to deepen my understanding of Java & Design Patterns:
 
 https://java-design-patterns.com/
+
 https://refactoring.guru/
 
 ##### Baeldung to dive into Java as backend - Spring Boot
 
 https://www.baeldung.com/java-tutorial
+
 https://www.baeldung.com/courses/rest-with-spring-boot-course
