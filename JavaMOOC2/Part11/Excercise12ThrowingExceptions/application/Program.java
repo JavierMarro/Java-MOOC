@@ -1,6 +1,4 @@
-package JavaMOOC2.Part11.Excercise12ThrowingExceptions;
-
-package application;
+package JavaMOOC2.Part11.Excercise12ThrowingExceptions.application;
 
 public class Program {
     // Code given by UoH

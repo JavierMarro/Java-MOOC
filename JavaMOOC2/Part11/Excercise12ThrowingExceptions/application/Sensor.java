@@ -1,6 +1,4 @@
-package JavaMOOC2.Part11.Excercise12ThrowingExceptions;
-
-package application;
+package JavaMOOC2.Part11.Excercise12ThrowingExceptions.application;
 // Code given by UoH
 public interface Sensor {
 

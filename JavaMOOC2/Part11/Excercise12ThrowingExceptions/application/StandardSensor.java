@@ -1,6 +1,4 @@
-package JavaMOOC2.Part11.Excercise12ThrowingExceptions;
-
-package application;
+package JavaMOOC2.Part11.Excercise12ThrowingExceptions.application;
 // Part 1
 public class StandardSensor implements Sensor{
     
