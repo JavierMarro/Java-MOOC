@@ -4,7 +4,7 @@ public class Program {
     // Code given by UoH
     public static void main(String[] args) {
         // you can test your classes here:
-        
+
         // Part 1
         StandardSensor ten = new StandardSensor(10);
         StandardSensor minusFive = new StandardSensor(-5);
@@ -33,22 +33,23 @@ public class Program {
         System.out.println("temperature in Helsinki region " + helsinkiRegion.read() + " degrees Celsius");
 
         // part 4
-        Sensor kumpula = new TemperatureSensor();
-        Sensor kaisaniemi = new TemperatureSensor();
-        Sensor helsinkiVantaaAirport = new TemperatureSensor();
+        Sensor kumpula2 = new TemperatureSensor();
+        Sensor kaisaniemi2 = new TemperatureSensor();
+        Sensor helsinkiVantaaAirport2 = new TemperatureSensor();
 
-        AverageSensor helsinkiRegion = new AverageSensor();
-        helsinkiRegion.addSensor(kumpula);
-        helsinkiRegion.addSensor(kaisaniemi);
-        helsinkiRegion.addSensor(helsinkiVantaaAirport);
+        AverageSensor helsinkiRegion2 = new AverageSensor();
+        helsinkiRegion2.addSensor(kumpula2);
+        helsinkiRegion2.addSensor(kaisaniemi2);
+        helsinkiRegion2.addSensor(helsinkiVantaaAirport2);
 
-        helsinkiRegion.setOn();
-        System.out.println("temperature in Helsinki region " + helsinkiRegion.read() + " degrees Celsius");
-        System.out.println("temperature in Helsinki region " + helsinkiRegion.read() + " degrees Celsius");
-        System.out.println("temperature in Helsinki region " + helsinkiRegion.read() + " degrees Celsius");
+        helsinkiRegion2.setOn();
+        System.out.println("temperature in Helsinki region " + helsinkiRegion2.read() + " degrees Celsius");
+        System.out.println("temperature in Helsinki region " + helsinkiRegion2.read() + " degrees Celsius");
+        System.out.println("temperature in Helsinki region " + helsinkiRegion2.read() + " degrees Celsius");
 
-        System.out.println("readings: " + helsinkiRegion.readings());
+        System.out.println("readings: " + helsinkiRegion2.readings());
     }
 
 }
+
 
