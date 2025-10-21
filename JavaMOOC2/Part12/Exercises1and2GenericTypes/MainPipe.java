@@ -1,6 +1,5 @@
 package JavaMOOC2.Part12.Exercises1and2GenericTypes;
 
-import java.nio.channels.Pipe;
 import java.util.Scanner;
 
 public class MainPipe {
@@ -8,7 +7,7 @@ public class MainPipe {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // you may try out your class here (by UoH)
-        Pipe<String> pipe = new Pipe<>();
+        SimplePipe<String> pipe = new SimplePipe<>();
         pipe.putIntoPipe("dibi");
         pipe.putIntoPipe("dab");
         pipe.putIntoPipe("dab");
@@ -17,7 +16,7 @@ public class MainPipe {
             System.out.println(pipe.takeFromPipe());
         }
 
-        Pipe<Integer> numberPipe = new Pipe<>();
+        SimplePipe<Integer> numberPipe = new SimplePipe<>();
         numberPipe.putIntoPipe(1);
         numberPipe.putIntoPipe(2);
         numberPipe.putIntoPipe(3);
