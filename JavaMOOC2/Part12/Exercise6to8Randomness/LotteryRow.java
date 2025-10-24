@@ -1,4 +1,4 @@
-package JavaMOOC2.Part12.Excercise6to8Randomness;
+package JavaMOOC2.Part12.Exercise6to8Randomness;
 
 
 import java.util.ArrayList;
