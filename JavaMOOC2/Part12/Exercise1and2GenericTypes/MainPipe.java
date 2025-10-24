@@ -1,4 +1,4 @@
-package JavaMOOC2.Part12.Exercises1and2GenericTypes;
+package JavaMOOC2.Part12.Exercise1and2GenericTypes;
 
 import java.util.Scanner;
 
