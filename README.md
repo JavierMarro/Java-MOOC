@@ -42,5 +42,8 @@ https://www.baeldung.com/courses/rest-with-spring-boot-course
 
 ## Certificates obtained
 
-![Javier Martinez Romera Java Certificate](https://i.ibb.co/mdJ6DLR/certificate-java-programming-ii.png "Java Programming II Certificate")
-![Javier Martinez Romera Java Certificate](https://i.ibb.co/N2dxV3Rj/certificate-java-programming-i.png "Java Programming I Certificate")
+<p align="center">
+  <img width="700" alt="Java Certificate" src="https://github.com/user-attachments/assets/fc9dbd8d-46f0-4334-86b9-25a1634fc401" />
+  <br/>
+  <img width="700" alt="Java Certificate" src="https://github.com/user-attachments/assets/e5a13e53-72a1-4ac6-9baf-38ea510d572f" />
+</p>
